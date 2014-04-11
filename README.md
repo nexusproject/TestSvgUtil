@@ -1,19 +1,25 @@
 Use cases and messages to a user:
 ---
-* SVG contains parameters that can not be used as a glyph description (styles, shading etc)
-    
->Processing result may not exactly match the original picture.<br/>
->This file contains some parameters that can not be used to describe a glyph and will be ignored.
+* Invalid file
 
-* SVG contains elements that affecting the picture but can not be converted to the `path` sequence
+> Invalid file
 
->Processing result may not exactly match the original picture.<br/>
->Glyph should be described using the tag `path`. Other tags will be converted to a sequence of `path` values or be ignored.
+* Nothing can be imported
 
-* SVG can not be used to describe a glyph at all (`path` and other parameters that can be converted are missing)
+> Nothing can be imported. <br/>
+> Tags and/or parameters (n, n, ..) cannot be imported.
 
->This file cannot be used to describe a glyph.<br/>
->Glyph should be described using the tag `path`. Other tags will be converted to a sequence of `path` values or be ignored.
+* Empty content (space)
+
+> -/-
 
 
-    
+* File have a tags and/or parmeters that will be ignored
+
+> Result may not exactly match the original picture. <br/>
+> Some tags and/or parameters (n, n, ..) cannot be imported.
+
+* Overlay of paths
+
+> Result may not exactly match the original picture.
+
