@@ -13,12 +13,12 @@ Use cases and messages to a user:
 
 > Invalid file
 
-* Nothing can be imported
+* Nothing can be imported after skipping.
 
 > Nothing can be imported. <br/>
 > Tags/attributes n, n, .. was ignored.
 
-* Path was compiled
+* Joined path exists.
 
 > Result may not exactly match the original picture.
 
