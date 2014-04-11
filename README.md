@@ -27,8 +27,6 @@ Use cases and messages to a user:
 API
 ---
 ```javascript
-var testSvgUtil = require('svgutil').testSvgUtil;
-
 // xmlDoc - XMLDOMParser result object after parsing the SVG 
 var result = testSvgUtil( xmlDoc );
 ```
