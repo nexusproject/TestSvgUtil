@@ -13,7 +13,7 @@ Use cases and messages to a user:
 
 > Invalid file
 
-* Nothing can be imported after skipping.
+* Nothing left after skipping.
 
 > Nothing can be imported. <br/>
 > Tags/attributes n, n, .. was ignored.
