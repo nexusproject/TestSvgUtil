@@ -20,6 +20,6 @@ Use cases and messages to a user:
 
 * Joined path exists.
 
-> If the picture not exactly matches with original please follow these  [instructions](https://github.com/fontello/fontello/wiki/How-to-use-custom-images#importing-svg-images).<br/>
-> Join all coutours to single outline. 
+> Please [convert image to compound path](https://github.com/fontello/fontello/wiki/How-to-use-custom-images#importing-svg-images) in editor.<br/>
+> Multiple paths exists. 
 
