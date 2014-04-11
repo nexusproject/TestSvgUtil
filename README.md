@@ -4,23 +4,19 @@ Use cases and messages to a user:
 
 > -/-
 
-* File have a tags and/or parmeters that will be ignored
+* SVG have a tags/attributes that will be ignored.
 
 > Result may not exactly match the original picture. <br/>
 > Some tags and/or attributes n, n, .. was ignored.
 
-* Invalid file
+* Invalid file. Broken xml or file are not SVG file.
 
 > Invalid file
 
 * Nothing can be imported
 
 > Nothing can be imported. <br/>
-> Tags and/or attributes n, n, .. was ignored.
-
-* Empty content (space)
-
-> -/-
+> Tags/attributes n, n, .. was ignored.
 
 * Path was compiled
 
