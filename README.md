@@ -7,7 +7,7 @@ Objectives
 2. Develop the API
 3. Implement the code
 
-Use cases and messages to the user:
+Use cases and messages to a user:
 ---
 * SVG contains parameters that can not be used as a glyph description (styles, shading etc)
     
