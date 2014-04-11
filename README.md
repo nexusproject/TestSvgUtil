@@ -11,8 +11,7 @@ Use cases and messages to a user:
 
 * Broken xml or no svg tag found.
 
-> Invalid file. Please follow these [instructions](https://github.com/fontello/fontello/wiki/How-to-use-custom-images#importing-svg-images).<br/>
-> We currently support 2 vertor formats: SVG fonts, SVG images.
+> Invalid file format. <br/>
 
 * Nothing left after skipping.
 
