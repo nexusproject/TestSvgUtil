@@ -26,13 +26,16 @@ Use cases and messages to a user:
 
 API
 ---
+```javascript
+var result = testSvgUtil( XMLDOMParser object );
+```
 
-    var result = testSvgUtil( XMLDOMParser object );
-    
 ##### Result description:
-    {
-        path: string // Result path
-        nonSuitableParameters: boolean // true - if contains parameters that can not be used (styles, shading etc)
-        nonConvertibleTags: boolean // true - if svg contains a tags that cannot be converted to the path
-    }
+```javascript
+{
+    path: string, // Result path
+    nonSuitableParameters: boolean, // true - if contains parameters that can not be used (styles, shading etc)
+    nonConvertibleTags: boolean // true - if svg contains a tags that cannot be converted to the path
+}
+```
     
