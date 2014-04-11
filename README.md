@@ -15,7 +15,7 @@ Use cases and messages to a user:
 
 * Nothing left after skipping.
 
-> Cant find data to import. Please [convert image to compound path](https://github.com/fontello/fontello/wiki/How-to-use-custom-images#importing-svg-images) in editor.<br/>
+> Can't find data to import. Please [convert image to compound path](https://github.com/fontello/fontello/wiki/How-to-use-custom-images#importing-svg-images) in editor.<br/>
 > Ignored tags/attributes: n, n, ..
 
 * Joined path exists.
