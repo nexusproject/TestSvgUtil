@@ -6,7 +6,7 @@ Use cases and messages to a user:
 
 * SVG have a tags/attributes that will be ignored.
 
-> If the picture not exactly matches with original please follow these  [instructions](https://github.com/fontello/fontello/wiki/How-to-use-custom-images#importing-svg-images).<br/>
+> If image looks not as expected [convert to compound path](https://github.com/fontello/fontello/wiki/How-to-use-custom-images#importing-svg-images) in editor.<br/>
 > Ignored tags/attributes: n, n, ..
 
 * Broken xml or no svg tag found.
