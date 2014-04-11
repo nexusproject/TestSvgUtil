@@ -14,7 +14,7 @@ Use cases and messages to a user:
 >Processing result may not exactly match the original picture.<br/>
 >This file contains some parameters that can not be used to describe a glyph and will be ignored.
 
-* SVG contains elements affecting the image but that can not be converted to path sequence
+* SVG contains elements affecting the image but that (still) can not be converted to path sequence
 
 >Processing result may not exactly match the original picture.<br/>
 >Glyph should be described using the tag `path`. Other tags will be converted to a sequence of `path` values or be ignored.
