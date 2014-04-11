@@ -15,7 +15,7 @@ Use cases and messages to a user:
 
 * Nothing left after skipping.
 
-> Nothing can be imported. Please follow these [instructions](https://github.com/fontello/fontello/wiki/How-to-use-custom-images#importing-svg-images).<br/>
+> Cant find data to import. Please [convert to compound path](https://github.com/fontello/fontello/wiki/How-to-use-custom-images#importing-svg-images).<br/>
 > Ignored tags/attributes: n, n, ..
 
 * Joined path exists.
