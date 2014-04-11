@@ -27,16 +27,16 @@ Use cases and messages to a user:
 API
 ---
 ```javascript
-/* xmlDoc - XMLDOMParser result object after parsing the SVG */
+// xmlDoc - XMLDOMParser result object after parsing the SVG 
 var result = testSvgUtil( xmlDoc );
 ```
 
 ##### Result description:
 ```javascript
 {
-    path: string, /* The result path values sequence (d) or null */
-    nonSuitableParameters: boolean, /* true if contains parameters that can not be used (styles, shading etc) */
-    nonConvertibleTags: boolean /* true if svg contains a tags that cannot be converted to the path */
+    path: string,  // The result path values sequence (d) or null 
+    nonSuitableParameters: boolean,  // true if contains parameters that can not be used (styles, shading etc) 
+    nonConvertibleTags: boolean  // true if svg contains a tags that cannot be converted to the path 
 }
 ```
     
