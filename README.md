@@ -9,7 +9,7 @@ Use cases and messages to a user:
 > Result may not exactly match the original picture. <br/>
 > Some tags and/or attributes n, n, .. was ignored.
 
-* Invalid file. Broken xml or file are not SVG file.
+* Broken xml or no svg tag founded.
 
 > Invalid file
 
