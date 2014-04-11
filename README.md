@@ -15,7 +15,7 @@ Use cases and messages to a user:
 
 * Nothing left after skipping.
 
-> Nothing can be imported. <br/>
+> Nothing can be imported. Please follow these  [instructions](https://github.com/fontello/fontello/wiki/How-to-use-custom-images#importing-svg-images).<br/>
 > Tags/attributes n, n, .. was ignored.
 
 * Joined path exists.
