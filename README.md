@@ -7,7 +7,7 @@ Use cases and messages to a user:
 * Nothing can be imported
 
 > Nothing can be imported. <br/>
-> Tags and/or parameters (n, n, ..) cannot be imported.
+> Tags and/or parameters n, n, .. was ignored.
 
 * Empty content (space)
 
@@ -17,7 +17,7 @@ Use cases and messages to a user:
 * File have a tags and/or parmeters that will be ignored
 
 > Result may not exactly match the original picture. <br/>
-> Some tags and/or parameters (n, n, ..) cannot be imported.
+> Some tags and/or attributes n, n, .. was ignored.
 
 * Overlay of paths
 
