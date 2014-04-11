@@ -11,7 +11,7 @@ Use cases and messages to a user:
 
 * Empty content (space)
 
-> -
+> -/-
 
 
 * File have a tags and/or parmeters that will be ignored
