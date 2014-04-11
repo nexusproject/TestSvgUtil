@@ -1,6 +1,3 @@
-TEST
-===
-
 Use cases and messages to a user:
 ---
 * SVG contains parameters that can not be used as a glyph description (styles, shading etc)
