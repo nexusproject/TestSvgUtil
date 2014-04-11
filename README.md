@@ -12,7 +12,7 @@ Use cases and messages to a user:
 * SVG contains parameters that can not be used as a glyph description (styles, shading etc)
     
 >Processing result may not exactly match the original picture.<br/>
->This file contains parameters that can not be used to describe a glyph and will be ignored.
+>This file contains some parameters that can not be used to describe a glyph and will be ignored.
 
 * SVG contains elements affecting the image but that can not be converted to path sequence
 
