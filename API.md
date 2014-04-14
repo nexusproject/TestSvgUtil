@@ -7,10 +7,12 @@ var svgUtil = function(data) {
     Implementation 
   */
   
-  var result = {
-    parsedOkay: Boolean,
+  /*
+  result structure 
+  {
+    error: Boolean,
     path: String,
-    exactMatch: Boolean,
+    okay: Boolean,
     skippedTags: Array,
     skippedAttributes: Array,
     x: Number,
@@ -18,7 +20,7 @@ var svgUtil = function(data) {
     height: Number,
     width: Number
   };
-
+  */
   return result;
 }
 
