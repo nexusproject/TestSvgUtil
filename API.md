@@ -2,7 +2,7 @@
 /*
   data - XML SVG text content
 **/
-function svgUtil(data) {
+var svgUtil = function(data) {
   /* 
     Implementation 
   */
