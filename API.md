@@ -16,7 +16,7 @@ function svgUtil(data) {
     x: Number,
     y: Number,
     height: Number,
-    width: Number,
+    width: Number
   };
 
   return result;
