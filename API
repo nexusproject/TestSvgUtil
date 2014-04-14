@@ -1,2 +1,19 @@
 API
 ---
+##### Example:
+```javascript
+var svgUtil = require('svgutil').testSvgUtil;
+
+/*
+  data - XML SVG content
+**/
+var result = svgUtil( data );
+
+/*
+  result description:
+  {
+    path: string or null
+  }
+**/
+
+```
