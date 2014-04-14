@@ -16,8 +16,8 @@ var result = svgUtil( data );
     joinedPath: boolean
     skippedTags: Array or null
     skippedAttributes: Array or null
-    svgAttributes: {
-      viewBox: { viewbox values
+    svg: { // svg attributes
+      viewBox: { // viewbox values
         minX: int,
         minY: int,
         width: int,
