@@ -6,7 +6,7 @@
   {
     error: Boolean, // true - if xml parsing failed or svg tag not found
     path: String,
-    ok: Boolean, // false - if exact matching non guaranteed (for example, multiple paths exists)
+    ok: Boolean, // false - if exact match non guaranteed (for example, multiple paths joined)
     skippedTags: Array,
     skippedAttributes: Array,
     x: Number,
