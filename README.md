@@ -35,7 +35,7 @@ var result = svgUtil( data, scaleHeight );
 
 ```
 
-##### The result:
+##### result:
 ```javascript
 {
   path: string or null // Result path d
