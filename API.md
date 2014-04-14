@@ -10,7 +10,7 @@ function svgUtil(data) {
   var result = {
     parsedOkay: Boolean,
     path: String,
-    multiplePaths: Boolean,
+    exactMatch: Boolean,
     skippedTags: Array,
     skippedAttributes: Array,
     x: Number,
