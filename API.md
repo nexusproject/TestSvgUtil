@@ -8,16 +8,26 @@ var svgUtil = require('svgutil').testSvgUtil;
 var result = svgUtil( data );
 
 /*
+  If data was parsed succesfuely - returns result object, otherwise null
   result description:
   
   {
     path: string or null
+    joinedPath: boolean
     skippedTags: Array or null
     skippedAttributes: Array or null
-    x: int
-    y: int
-    height: int
-    width: int
+    svgAttributes: {
+      viewBox: { viewbox values
+        minX: int,
+        minY: int,
+        width: int,
+        height: int
+      },
+      x: int
+      y: int
+      height: int
+      width: int
+    }  
   }
 **/
 ```
