@@ -4,7 +4,20 @@ var svgUtil = require('svgutil').testSvgUtil;
 
 /*
   data - XML SVG content
-  scaleHeight - height value, default 1000
 **/
-var result = svgUtil( data, scaleHeight );
+var result = svgUtil( data );
+
+/*
+  result description:
+  
+  {
+    path: string or null
+    skippedTags: Array or null
+    skippedAttributes: Array or null
+    x: int
+    y: int
+    height: int
+    width: int
+  }
+**/
 ```
