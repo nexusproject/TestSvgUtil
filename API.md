@@ -1,33 +1,26 @@
-##### Example:
 ```javascript
-var svgUtil = require('svgutil').testSvgUtil;
-
 /*
-  data - XML SVG content
+  data - XML SVG text content
 **/
-var result = svgUtil( data );
-
-/*
-  If data was parsed succesfuely - returns result object, otherwise null
-  result description:
+function svgUtil(data) {
+  /* 
+    Implementation 
+  */
   
-  {
-    path: string or null
-    joinedPath: boolean
-    skippedTags: Array or null
-    skippedAttributes: Array or null
-    svg: { // svg attributes
-      viewBox: { // viewbox values
-        minX: int,
-        minY: int,
-        width: int,
-        height: int
-      },
-      x: int
-      y: int
-      height: int
-      width: int
-    }  
-  }
-**/
+  var result = {
+    parsedOkay: Boolean,
+    path: String,
+    multiplePaths: Boolean,
+    skippedTags: Array,
+    skippedAttributes: Array,
+    x: Number,
+    y: Number,
+    height: Number,
+    width: Number,
+  };
+
+  return result;
+}
+
+
 ```
