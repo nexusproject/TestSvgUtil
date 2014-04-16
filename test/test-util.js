@@ -1,7 +1,7 @@
 #!/usr/bin/node
 
 var fs = require('fs');
-var svgPrune = require('./svgPrune').svgPrune;
+var svgPrune = require('../svgPrune').svgPrune;
 
 var svgFile = process.argv[2];
 if (! svgFile) {
