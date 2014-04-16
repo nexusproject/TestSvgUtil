@@ -28,10 +28,10 @@ var svgPrune = function(data) {
     /* the result */
     var result = {
         error: 0,
-        path: new String(),
+        path: '',
         ok: false,
-        skippedTags: new Array(),
-        skippedAttributes: new Array(),
+        skippedTags: [],
+        skippedAttributes: [],
         x: 0,
         y: 0,
         height: 0,
@@ -55,7 +55,7 @@ var svgPrune = function(data) {
     }
 
     /* Recursive collect all tags */
-    var tags = new Array();
+    var tags = [];
     (function(targetNode) {
         for (var node = targetNode.firstChild; node; node = node.nextSibling) {
             if (! node.data) {
@@ -70,7 +70,6 @@ var svgPrune = function(data) {
 
     result.skippedTags = _.without(tags, 'g', 'path');
     var pathTags = xmlDoc.getElementsByTagName('path');
-    var resultPath = new String();
 
     /* Going over all paths and applying all group transformations */
     for (var i=0; i<pathTags.length; i++) {
