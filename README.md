@@ -23,3 +23,10 @@ Use cases and messages to a user:
 > Please [convert image to compound path](https://github.com/fontello/fontello/wiki/How-to-use-custom-images#importing-svg-images) in editor.<br/>
 > Multiple paths exists. 
 
+Testing
+---
+
+####How to test from console:
+  cd test<br/>
+  test-util.js < svg file >
+
