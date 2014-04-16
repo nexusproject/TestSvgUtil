@@ -5,7 +5,7 @@ var svgPrune = require('./svgPrune').svgPrune;
 
 var svgFile = process.argv[2];
 if (! svgFile) {
-    console.log("Usage: pruneTest <somefile.svg>");
+    console.log("Usage: test-util.js <somefile.svg>");
     process.exit();
 }
 
