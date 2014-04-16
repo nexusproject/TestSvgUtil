@@ -27,6 +27,6 @@ Testing
 ---
 
 ####How to test from console:
-  cd test<br/>
-  test-util.js < svg file >
+  cd test/<br/>
+  ./test-util.js < svg file >
 
