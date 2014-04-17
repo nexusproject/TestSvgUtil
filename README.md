@@ -1,4 +1,4 @@
-svgPrune
+SVG Util
 --
 Simple JavaScript library to simplify [SVG](http://en.wikipedia.org/wiki/SVG) files.
 
