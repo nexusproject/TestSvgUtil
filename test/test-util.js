@@ -1,4 +1,11 @@
 #!/usr/bin/node
+/**
+ * svgPrune console test
+ *
+ * Copyright (c) 2013 Dmitry Sergeev <realnexusway@gmail.com>
+ *
+ * Licensed under MIT license. See LICENSE.
+ */
 
 var fs = require('fs');
 var svgPrune = require('svgprune').svgPrune;
