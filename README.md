@@ -35,7 +35,6 @@ var result = svgPrune(svgData);
 Testing
 ---
 
-####How to test from console:
-  cd test/<br/>
-  ./test-util.js < svg file >
+####How to test from console, example:
+  test/runtest.sh test/svg/testpic1.svg ../result.svg
 
