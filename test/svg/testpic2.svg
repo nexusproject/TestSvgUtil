@@ -4,7 +4,7 @@
      xmlns = "http://www.w3.org/2000/svg" 
      xmlns:xlink = "http://www.w3.org/1999/xlink"
      xmlns:ev = "http://www.w3.org/2001/xml-events"
+    height="80" width="80"
 >
-
-    <path fill="red" stroke="black" d="M0,200 C100 100 250 100 250 200" />
+    <path fill="red" stroke="black" d="M-10 -10 L90 40 L90 90 L40 90 L-10 -10" />
 </svg>
