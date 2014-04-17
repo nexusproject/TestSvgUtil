@@ -1,28 +1,37 @@
-Use cases and messages to a user:
+svgPrune
+--
+Simple JavaScript library to simplify [SVG](http://en.wikipedia.org/wiki/SVG) files.
+
+Dependencies
 ---
-* Everything is okay
+```
+npm install svgpath
+npm install lodash
+npm install xmldom
+```
+Example
+---
+```javascript
+var svgPrune = require('svgutil').svgPrune;
 
-> -/-
+/*
+  svgData - XML SVG text content
+  
+  result structure:
+    ---
+    error: Number
+    path: String
+    ok: Boolean
+    skippedTags: Array
+    skippedAttributes: Array
+    x: Number
+    y: Number
+    height: Number
+    width: Number
+**/
 
-* SVG have a tags/attributes that will be ignored.
-
-> If image looks not as expected [convert image to compound path](https://github.com/fontello/fontello/wiki/How-to-use-custom-images#importing-svg-images) in editor.<br/>
-> Ignored tags/attributes: n, n, ..
-
-* Broken xml or no svg tag found.
-
-> Invalid file format. <br/>
-
-* Nothing left after skipping.
-
-> Can't find data to import. Please [convert image to compound path](https://github.com/fontello/fontello/wiki/How-to-use-custom-images#importing-svg-images) in editor.<br/>
-> Ignored tags/attributes: n, n, ..
-
-* Joined path exists.
-
-> Please [convert image to compound path](https://github.com/fontello/fontello/wiki/How-to-use-custom-images#importing-svg-images) in editor.<br/>
-> Multiple paths exists. 
-
+var result = svgPrune(svgData);
+```
 Testing
 ---
 
