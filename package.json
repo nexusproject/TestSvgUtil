@@ -1,0 +1,22 @@
+{
+  "name"            : "svgprune",
+
+  "version"         : "0.1.0",
+
+  "description"     : "Simple JavaScript library to simplify SVG",
+  "keywords"        : ["svg", "javascript"],
+  "homepage"        : "https://github.com/nexusproject/svgprune",
+  "bugs"            : { "url": "https://github.com/fontello/svgpath/issues" },
+  "licenses"        : [],
+  "repository"      : {
+                        "type": "git",
+                        "url": "git://github.com/nexusproject/svgprune.git"
+                      },
+
+  "main"            : "./lib/svgprune.js",
+  "dependencies" : {
+                        "svgpath":     "*",
+                        "lodash": "*",
+                        "xmldom":      "*"
+                      }
+}
