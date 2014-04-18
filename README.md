@@ -13,4 +13,4 @@ Testing
 To testing from console you should use `test/runtest.sh` <br/>
 `test/runtest.sh <svg file in> [svg file out]`
 
-Directory test/svg contains sample SVG files.
+Directory test/svg contains a sample SVG files.
