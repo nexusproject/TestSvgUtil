@@ -8,7 +8,7 @@
  */
 
 var fs = require('fs');
-var svgPrune = require('svgprune').svgPrune;
+var svgFontify = require('svgfontify').svgFontify;
 
 var svgFile = process.argv[2];
 var svgOutFile = process.argv[3];
@@ -24,7 +24,7 @@ if (! fs.existsSync(svgFile)) {
 }
 
 var t = fs.readFileSync(svgFile).toString();
-var res = svgPrune(t);
+var res = svgFontify(t);
 
 console.log(res);
 
