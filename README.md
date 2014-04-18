@@ -10,7 +10,7 @@ npm install
 ```
 Testing
 ---
-To testing from console you should use `test/runtest.sh` <br/>
-`test/runtest.sh <svg file in> [svg file out]`
+To testing from console you should use `test/runtest` script <br/>
+`test/runtest <svg file in> [svg file out]`
 
 Directory test/svg contains a sample SVG files.
