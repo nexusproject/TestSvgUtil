@@ -1,22 +1,22 @@
 {
-  "name"            : "svgprune",
+  "name"            : "svgfontify",
 
   "version"         : "0.1.0",
 
-  "description"     : "Simple JavaScript library to simplify SVG",
+  "description"     : "Simple JavaScript tool to prepare SVG data to use as a glyph.",
   "keywords"        : ["svg", "javascript"],
-  "homepage"        : "https://github.com/nexusproject/svgprune",
+  "homepage"        : "https://github.com/nexusproject/svgfontify",
   "bugs"            : { "url": "https://github.com/fontello/svgpath/issues" },
   "licenses"        : [],
   "repository"      : {
                         "type": "git",
-                        "url": "git://github.com/nexusproject/svgprune.git"
+                        "url": "git://github.com/nexusproject/svgfontify.git"
                       },
 
-  "main"            : "./lib/svgprune.js",
+  "main"            : "./lib/svgfontify.js",
   "dependencies" : {
-                        "svgpath":     "*",
+                        "svgpath":  "*",
                         "lodash": "*",
-                        "xmldom":      "*"
+                        "xmldom": "*"
                       }
 }
