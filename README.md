@@ -1,6 +1,6 @@
-SVG Prune
+SVG fontify
 --
-Simple JavaScript library to simplify [SVG](http://en.wikipedia.org/wiki/SVG) files.
+Simple JavaScript tool to prepare [SVG](http://en.wikipedia.org/wiki/SVG) data to use as a glyph.
 
 Installing
 ---
